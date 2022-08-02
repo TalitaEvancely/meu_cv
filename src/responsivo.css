@@ -1,0 +1,19 @@
+@media(max-width:992px){
+    body{
+        flex-direction: column;
+    align-items: center;
+    }
+    .ladoA, .ladoB {
+    max-width: 100%;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .qualificacoes ul{
+        flex-direction: column;
+    }
+   
+    footer{
+        max-width: 100%;
+    }
+}

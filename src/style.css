@@ -9,6 +9,7 @@
 body{
     
     display: flex;
+    flex-direction: row;
 }
 .ladoA{
     background-color: #8A2BE2;
@@ -19,7 +20,7 @@ body{
 }
 
 .ladoB{
-    background-color: #000; 
+    background-color: #fff; 
 }
 
 footer{
@@ -28,7 +29,7 @@ footer{
 
 
 .btn{
-    background: linear-gradient(to right,violet, indigo);
+    background: linear-gradient(to right,#5000ca, indigo);
     color: #fff;
     padding: 10px 30px;
     display: inline-block;
@@ -68,19 +69,36 @@ aside{
     color: #fff;
 }
 aside section h2{
-    color: #fff;
+    color:#fff;
+}
+.title{
+background: #5000CA;
+background: linear-gradient(to top, #5000CA 0%, #4B0082 100%);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent; 
+font-size: 3rem;
+font-weight: bold;
+line-height: 1.1;
+    }
+ .qualificacoes ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 
 section{
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 2rem;
     color: #fff;
 }
 section ul li{
     list-style-type: square;
     font-size: 18px;
     padding-top: 10px;
+    color: #000;
 }
 section h2{
     color:blueviolet
@@ -88,6 +106,7 @@ section h2{
 section p{
     text-align: justify;
     width: 60rem;
+    color: #000;
 }
 
 section ul{
@@ -99,7 +118,6 @@ section ul{
 } 
 
 footer{
-    display: flex;
-    align-items: center;
+    background: linear-gradient(to right,#5000ca, indigo);
     
 }
