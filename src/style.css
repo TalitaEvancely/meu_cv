@@ -44,7 +44,7 @@ header{
    align-content: space-around;
     
     padding: 30px 20px 20px 30px; 
-    color: #fff
+    color:#000;
      
 }
 header img{
@@ -57,16 +57,17 @@ header  a{
     color: #fff;
 }
 header h2{
+    color: #fff;
 margin-top: 3rem;
 padding: 2rem;
 }
-.contato{
+/* .contato{
     display: flex;
     flex-direction: column;
-    margin-top: 1rem;
-}
+    margin-top: 1rem; 
+}*/
 aside{
-    color: #fff;
+    color:#000;
 }
 aside section h2{
     color:#fff;
